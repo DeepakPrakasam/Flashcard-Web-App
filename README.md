@@ -11,7 +11,7 @@ A flashcard application designed to help users learn and memorize information ef
 ## Tech Stack
 - **Frontend**: React.js
 - **Backend**: Node.js with Express
-- **Database**: MongoDB
+- **Database**: MongoDB or PostgreSQL
 - **Authentication**: JWT (JSON Web Token)
 - **Styling**: TailwindCSS or Styled Components
 - **Real-time**: Optional – For future improvements like collaborative study sessions or real-time flashcard updates.
