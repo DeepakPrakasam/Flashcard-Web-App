@@ -34,3 +34,7 @@ A flashcard application designed to help users learn and memorize information ef
 - **Flashcard Creation**: Users can create flashcards with questions, answers, and optional hints.
 - **Deck Management**: Users can organize flashcards into multiple decks (e.g., by subject or category).
 - **Search Functionality**: Quickly search for flashcards based on content.
+
+## Layout Images
+ 
+<img src="./images/./SignUp.png"/>
