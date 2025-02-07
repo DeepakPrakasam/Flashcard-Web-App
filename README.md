@@ -1,4 +1,4 @@
-# Flashcard-Web-App
+# Flashcard-Web-App⚡
 
 ## Overview
 A flashcard application designed to help users learn and memorize information effectively through customizable flashcards. It supports user authentication, flashcard creation to enhance learning.
