@@ -36,5 +36,5 @@ A flashcard application designed to help users learn and memorize information ef
 - **Search Functionality**: Quickly search for flashcards based on content.
 
 ## Layout Images
- 
-<img src="./images/./SignUp.png"/>
+
+![Sign Up Page](./images/SignUp.png) 
