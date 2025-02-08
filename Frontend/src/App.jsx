@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h2>Welcome To FlashCard</h2>
+      <h2>Welcome To MindFlare⚡</h2>
     </>
   )
 }
