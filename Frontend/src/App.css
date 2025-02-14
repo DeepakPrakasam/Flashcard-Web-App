@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +40,54 @@
 .read-the-docs {
   color: #888;
 }
+
+.thunder {
+  left: 310px;
+  width: 125px;
+  height: 255px;
+  position: relative;
+}
+
+.thunder:before,
+.thunder:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: black;
+  box-shadow: 0 0 0 50px;
+  clip-path: polygon(
+    100% 0,
+    23% 46%,
+    46% 44%,
+    15% 69%,
+    38% 67%,
+    0 100%,
+    76% 57%,
+    53% 58%,
+    88% 33%,
+    60% 37%
+  );
+}
+
+.thunder:after {
+  animation: pulsing 2s infinite;
+  transform: perspective(300px) translateZ(0px);
+}
+
+@keyframes pulsing {
+  to {
+    transform: perspective(300px) translateZ(180px);
+    opacity: 0;
+  }
+}
+
+@keyframes fireEffect {
+  0% { color: red; text-shadow: 0 0 5px red, 0 0 10px orange; }
+  50% { color: orange; text-shadow: 0 0 10px red, 0 0 15px yellow; }
+  100% { color: yellow; text-shadow: 0 0 15px orange, 0 0 20px red; }
+}
+
+.fire-text {
+  font-family: 'Sofia', sans-serif;
+  animation: fireEffect 5s infinite alternate;
+}*/
